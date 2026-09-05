@@ -1,0 +1,116 @@
+MIT License
+
+Copyright (c) 2026 Android Security Scanner Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL DISCLAIMER FOR SECURITY SOFTWARE:
+
+This software is provided for security scanning and educational purposes only.
+While the application attempts to identify potential security threats and
+vulnerabilities, it is not guaranteed to detect all malicious software or
+security vulnerabilities.
+
+Users acknowledge that:
+
+1. The application is pattern-based detection and may produce false positives
+   or false negatives.
+
+2. The developers are not responsible for:
+   - Data loss resulting from app uninstallation
+   - Security breaches that occur despite using this software
+   - Damage to the device or data resulting from misuse
+   - Incorrect threat identification or actions taken based on alerts
+
+3. This software should be used as ONE PART of a comprehensive security
+   strategy, not as the sole security solution.
+
+4. Users should:
+   - Keep Android system and applications updated
+   - Download apps only from official app stores (Google Play, Samsung Galaxy
+     Store, etc.)
+   - Maintain regular backups of important data
+   - Consult professional security experts for critical systems
+   - Review all scan results independently
+
+5. The malware database and detection rules are:
+   - Updated quarterly (not real-time)
+   - Based on publicly known threats
+   - Subject to false positives with legitimate software
+   - Not guaranteed to detect zero-day exploits
+
+6. Permission to use does not include:
+   - Removing security software that protects end-users
+   - Using this software to harm, exploit, or attack others
+   - Reverse engineering for malicious purposes
+   - Using detection signatures without attribution
+
+7. The software does NOT:
+   - Require root/admin privileges
+   - Automatically remove apps or files
+   - Transmit user data externally
+   - Modify system settings without user consent
+   - Disable legitimate security features
+
+By using this software, you accept full responsibility for any consequences
+of its use and agree to indemnify the developers from any claims.
+
+For security software disclaimers, also see:
+- README.md → Disclaimer section
+- DETECTION_RULES.md → False Positive Mitigation
+
+---
+
+THIRD-PARTY LICENSES:
+
+This project uses the following Android libraries, each with their own licenses:
+
+1. AndroidX AppCompat Library (v1.6.1)
+   License: Apache License 2.0
+   URL: https://developer.android.com/jetpack/androidx/releases/appcompat
+
+2. AndroidX ConstraintLayout (v2.1.4)
+   License: Apache License 2.0
+   URL: https://developer.android.com/jetpack/androidx/releases/constraintlayout
+
+3. Android Framework (Android SDK)
+   License: Android Software Development Kit License Agreement
+   URL: https://developer.android.com/license
+
+All third-party licenses can be found in the Android SDK directory:
+${ANDROID_SDK_ROOT}/licenses/
+
+---
+
+CONTRIBUTING:
+
+By contributing to this project, you agree that:
+
+1. Your contributions will be licensed under the MIT License
+2. You have the legal right to contribute the code
+3. Your code will not violate any third-party rights
+4. Your contributions maintain the security and ethical standards of the project
+
+---
+
+For more information, contact: Security Scanner Team
+Last Updated: 2026-09-05
+License Version: 1.0
